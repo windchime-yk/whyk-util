@@ -1,0 +1,13 @@
+{
+  "semi": false,
+  "arrowParens": "always",
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": "src/*.html",
+      "options": {
+        "printWidth": 900
+      }
+    }
+  ]
+}
