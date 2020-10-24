@@ -79,3 +79,23 @@
   display: block;
   text-align: right;
 }
+
+.p-contents__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  @include mq('sp') {
+    flex-direction: column;
+  }
+}
+
+.p-contents__textarea {
+  width: 40%;
+  height: 400px;
+  @include mq('sp') {
+    width: 90%;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
